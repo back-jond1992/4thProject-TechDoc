@@ -161,13 +161,13 @@ W3C in 2008, and completed and standardized on 28 October 2014.
                 HTML documents imply a structure of nested HTML elements. Tags and attributes are the 
 basis of these HTML Elements. Tags and attributes work together but perform different functions.
             </p>
-            <p><strong>What are Tags?</strong></p>
+            <h2>What are Tags?</h2>
             <p>
                 Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets. An example of a tag is: < h1 >.
 
                 Most tags must be opened < h1 > and closed < /h1 > in order to function.
             </p>
-            <p><strong>What are Attributes?</strong></p>
+            <h2>What are Attributes?</h2>
             <p>
                 Attributes contain additional pieces of information. Attributes take the form of an opening tag and additional info is placed inside.
 
@@ -193,7 +193,7 @@ In this instance, the image source (src) and the alt text (alt) are attributes o
         <article>
         <p>There are many choices on the market. Here are a handful of the most popular:
         </p>
-        <h2>Sublime Text 3</h2>
+        <p><strong>Sublime Text 3</strong></p>
         <p>Pros</p>
         <ul>
             <li>Easily customizable</li>
@@ -205,7 +205,7 @@ In this instance, the image source (src) and the alt text (alt) are attributes o
             <li>Can't print documents or code</li>
             <li>No toolbar or dashboard available</li>
         </ul>
-        <h2>Notepad++</h2>
+        <p><strong>Notepad++</strong></p>
         <p>Pros</p>
         <ul>
             <li>Distraction free interface</li>
@@ -217,7 +217,7 @@ In this instance, the image source (src) and the alt text (alt) are attributes o
             <li>Can be difficult to get used to for beginners</li>
             <li>No support for Mac</li>
         </ul>
-        <h2>Komoo Edit</h2>
+        <p><strong>Komo Edit</strong></p>
         <p>Pros</p>
         <ul>
             <li>Easy-to-grasp coding interface</li>
@@ -229,7 +229,7 @@ In this instance, the image source (src) and the alt text (alt) are attributes o
             <li>No auto completion by default</li>
             <li>Visual settings are difficult to find and change</li>
         </ul>
-        <p><strong>What To Avoid</strong></p>
+        <h2>What To Avoid</h2>
         <p>Do not use Microsoft Word or any other word processor when writing HTML code, 
 only an HTML editor or at the very least, your machine’s built-in notepad, is suitable for the task.
 
@@ -246,6 +246,32 @@ and Firefox in order to preview your upcoming creation.</p>
 From there you need to layout your page with the following tags.
             </p>
                 <h2>Basic Construction of an HTML Page</h2>
+                <p>These tags should be placed underneath each other at the top of every HTML page that you create.</p>
+                    <p>
+                    < !DOCTYPE html > — This tag specifies the language you will write on the page. In this case, the language is HTML 5.
+                    </p>
+                    <p>
+                    < html> — This tag signals that from here on we are going to write in HTML code.
+                    </p>
+                    <p>
+                    < head > — This is where all the metadata for the page goes — stuff mostly meant for search engines and other computer programs.
+                    </p>
+                    <p>
+                    < body > — This is where the content of the page goes.
+            </p>
+            <img id="image" 
+
+            src="https://html.com/wp-content/uploads/html-homepage-layout-demo.webp"
+            alt="Image showing the normal layout of an HTML page. Head tags at the top containing title tags.
+            Under the head is the body with h1 and p tags. All inside HTML tags."/>
+            <figcaption id="img-caption">
+                This is how your average HTML page is structured visually.
+            </figcaption>
+            <h2>Further Tags</h2>
+            <p>Inside the < head > tag, there is one tag that is always included: < title >, but there are others that are just as important:</p>
+            <p> < title > - This is where we insert the page name as it will appear at the top of the browser window or tab.</p>
+            <p> < meta > - This is where information about the document is stored: character encoding, name (page context), description.</p>
+            <p><strong>Let’s try out a basic < head > section:</strong></p>
         </article>
     </section>
     </main>
